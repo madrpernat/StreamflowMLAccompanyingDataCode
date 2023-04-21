@@ -101,7 +101,7 @@ def main():
         with open(configs['basin_name'] + "_results.pkl", 'wb') as pickle_file:
             pickle.dump(results, pickle_file)
 
-        # and then also write the result dictionary out into a csv file easy view of results and/or manipulation in
+        # and then also write the resulst dictionary out into a csv file for easy view of results and/or manipulation in
         # excel or other software
         with open(configs['basin_name'] + "_results.csv", 'w', newline='') as f:
             writer = csv.writer(f)
@@ -137,7 +137,7 @@ def set_pipeline(regressor_name):
         param_grid = {"regressor__max_depth": [2, 5, 10, None],
                       "regressor__max_features": [1, 0.6]}
 
-    elif regressor_name == 'support_vector_regression':
+    else:  # regressor_name == 'support_vector_regression':
         pipe = Pipeline([('transformer', transformer), ('regressor', SVR())])
         param_grid = {'regressor__C': [0.1, 1, 10, 100],
                       'regressor__gamma': [1, 0.1, 0.01, 0.001],
@@ -204,5 +204,6 @@ def add_scores(results, metric, test_score_list):
     results["test_" + metric + "_scores"].append(test_score_list)
     results["avg_test_" + metric].append(np.mean(test_score_list))
 
+    
 if __name__ == "__main__":
     main()

@@ -1,0 +1,26 @@
+{
+    "basin_name": "Jemez_River",
+    "config_name": "Jemez_River",
+    "data_file": "Jemez_River_data.csv",
+    "features": [
+        ["SNOTEL_PA_A_1", "SNOTEL_SWE_A_0", "PDO", "SNOTEL_PA_A_0", "AMO", "WIND_mean", "SOI", "SNOTEL_SWE_M_0", "SNOTEL_PA_M_0", "SNOTEL_SWE_A_1"],
+        ["SNOTEL_PA_A_1", "SNOTEL_SWE_A_0", "PDO", "SNOTEL_PA_A_0", "AMO", "WIND_mean", "SNOTEL_PA_M_0", "SNOTEL_SWE_A_1", "SPFH_mean", "SOI"],
+        ["SNOTEL_PA_M_1", "SNOTEL_SWE_A_0", "SOI", "SNOTEL_PA_A_0", "AMO", "SPFH_mean", "SNOTEL_SWE_A_1", "PDO", "WIND_mean", "NAO"],
+        ["SNOTEL_PA_A_1", "SNOTEL_SWE_M_0", "WIND_mean", "AMO", "SNOTEL_SWE_A_1", "SNOTEL_SWE_M_1", "PDO", "SOI", "SNOTEL_PA_M_1", "SNOTEL_PA_A_0"],
+        ["SNOTEL_PA_A_1", "SNOTEL_PA_A_0", "SNOTEL_SWE_A_1", "SNOTEL_PA_M_1", "SNOTEL_PA_M_0", "WIND_mean", "PDO", "SNOTEL_SWE_M_0", "AMO", "SNOTEL_SWE_A_0"]
+    ],
+    "regressors": [
+        "multiple_linear_regression",
+        "principal_component_regression",
+        "random_forest",
+        "extremely_randomized_trees",
+        "support_vector_regression"
+    ],
+    "regressors_is_saved": [
+        false,
+        false,
+        false,
+        false,
+        false
+    ]
+}

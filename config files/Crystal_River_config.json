@@ -1,0 +1,26 @@
+{
+    "basin_name": "Crystal_River",
+    "config_name": "Crystal_River",
+    "data_file": "Crystal_River_data.csv",
+    "features": [
+        ["SNOTEL_SWE_A_1", "SNOTEL_PA_A_3", "SNOTEL_SWE_M_3", "SNOTEL_PA_A_2", "SNOTEL_SWE_M_2", "SPFH_mean", "SNOTEL_SWE_M_0", "SNOTEL_PA_A_1", "NAO", "TMP_mean"],
+        ["SNOTEL_SWE_A_1", "SNOTEL_PA_A_3", "SNOTEL_SWE_M_3", "SNOTEL_PA_A_2", "SNOTEL_SWE_M_2", "SNOTEL_PA_M_1", "SPFH_mean", "SNOTEL_SWE_M_0", "SNOTEL_PA_A_1", "SNOTEL_SWE_A_2"],
+        ["SNOTEL_SWE_A_1", "SNOTEL_SWE_A_3", "SNOTEL_SWE_M_3", "AMO", "NAO", "PDO", "SPFH_mean", "SNOTEL_PA_M_2", "SNOTEL_SWE_M_0", "SNOTEL_PA_A_2"],
+        ["SNOTEL_PA_M_1", "SNOTEL_SWE_A_3", "NAO", "SNOTEL_PA_M_2", "PDO", "SNOTEL_PA_A_2", "SNOTEL_SWE_M_1", "SNOTEL_PA_A_3", "WIND_mean", "SNOTEL_SWE_M_3"],
+        ["SNOTEL_SWE_A_1", "SNOTEL_PA_A_3", "SNOTEL_PA_A_2", "SNOTEL_SWE_A_3", "SPFH_mean", "SNOTEL_SWE_M_2", "SNOTEL_SWE_M_3", "NAO", "SNOTEL_PA_M_0", "PDO"]
+    ],
+    "regressors": [
+        "multiple_linear_regression",
+        "principal_component_regression",
+        "random_forest",
+        "extremely_randomized_trees",
+        "support_vector_regression"
+    ],
+    "regressors_is_saved": [
+        false,
+        false,
+        false,
+        false,
+        false
+    ]
+}

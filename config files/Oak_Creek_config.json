@@ -1,0 +1,26 @@
+{
+    "basin_name": "Oak_Creek",
+    "config_name": "Oak_Creek",
+    "data_file": "Oak_Creek_data.csv",
+    "features": [
+        ["SNOTEL_SWE_A_1", "TMP_mean", "SNOTEL_PA_A_0", "SNOTEL_SWE_A_2", "PDO", "SOI", "SNOTEL_SWE_M_0", "SNOTEL_PA_A_1", "SNOTEL_SWE_M_2", "SNOTEL_PA_A_2"],
+        ["SNOTEL_SWE_A_1", "TMP_mean", "SNOTEL_PA_A_0", "SNOTEL_PA_M_0", "SNOTEL_SWE_A_2", "SNOTEL_PA_M_1", "SNOTEL_SWE_A_0", "PDO", "SNOTEL_PA_A_1", "SOI"],
+        ["SNOTEL_SWE_A_0", "SNOTEL_SWE_M_1", "SNOTEL_SWE_A_2", "SPFH_mean", "SNOTEL_SWE_M_0", "SNOTEL_SWE_M_2", "SNOTEL_SWE_A_1", "SOI", "TMP_mean", "SNOTEL_PA_A_0"],
+        ["SNOTEL_SWE_A_0", "SNOTEL_PA_M_1", "SNOTEL_SWE_A_2", "SPFH_mean", "SNOTEL_SWE_A_1", "AMO", "SNOTEL_PA_A_0", "SNOTEL_SWE_M_1", "SNOTEL_PA_M_2", "TMP_mean"],
+        ["SNOTEL_SWE_A_0", "SNOTEL_SWE_A_1", "SNOTEL_SWE_A_2", "SPFH_mean", "SNOTEL_PA_A_0", "SNOTEL_PA_M_1", "SNOTEL_PA_M_2", "TMP_mean", "SNOTEL_PA_M_0", "SNOTEL_SWE_M_2"]
+    ],
+    "regressors": [
+        "multiple_linear_regression",
+        "principal_component_regression",
+        "random_forest",
+        "extremely_randomized_trees",
+        "support_vector_regression"
+    ],
+    "regressors_is_saved": [
+        false,
+        false,
+        false,
+        false,
+        false
+    ]
+}

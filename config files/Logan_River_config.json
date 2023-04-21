@@ -1,0 +1,26 @@
+{
+    "basin_name": "Logan_River",
+    "config_name": "Logan_River",
+    "data_file": "Logan_River_data.csv",
+    "features": [
+        ["SNOTEL_SWE_A_4", "SNOTEL_PA_A_0", "SNOTEL_SWE_A_5", "SNOTEL_SWE_A_6", "SNOTEL_SWE_M_4", "SNOTEL_SWE_M_1", "SNOTEL_SWE_M_0", "SNOTEL_PA_M_0", "SNOTEL_SWE_A_3", "SNOTEL_SWE_M_8"],
+        ["SNOTEL_SWE_A_4", "SNOTEL_PA_A_0", "SNOTEL_SWE_A_5", "SNOTEL_SWE_A_6", "SNOTEL_SWE_M_4", "SNOTEL_SWE_M_1", "SNOTEL_PA_A_6", "SNOTEL_PA_A_5", "SNOTEL_PA_A_8", "SNOTEL_PA_A_4"],
+        ["SNOTEL_SWE_M_4", "SNOTEL_SWE_M_8", "SNOTEL_PA_M_6", "SNOTEL_SWE_A_4", "SNOTEL_PA_A_0", "SNOTEL_SWE_M_3", "SNOTEL_PA_M_2", "TMP_mean", "WIND_mean", "SNOTEL_PA_M_4"],
+        ["SNOTEL_SWE_M_4", "TMP_mean", "SNOTEL_PA_A_8", "SNOTEL_PA_M_6", "SNOTEL_PA_A_0", "SNOTEL_SWE_A_4", "SNOTEL_SWE_A_5", "SNOTEL_SWE_M_8", "SPFH_mean", "SNOTEL_PA_M_4"],
+        ["SNOTEL_SWE_A_4", "SNOTEL_PA_M_6", "SNOTEL_PA_M_4", "TMP_mean", "SNOTEL_PA_M_2", "SNOTEL_PA_A_4", "SNOTEL_PA_A_2", "SNOTEL_SWE_M_7", "SNOTEL_SWE_M_4", "SNOTEL_PA_A_6"]
+    ],
+    "regressors": [
+        "multiple_linear_regression",
+        "principal_component_regression",
+        "random_forest",
+        "extremely_randomized_trees",
+        "support_vector_regression"
+    ],
+    "regressors_is_saved": [
+        false,
+        false,
+        false,
+        false,
+        false
+    ]
+}

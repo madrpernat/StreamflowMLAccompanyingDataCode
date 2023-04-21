@@ -1,0 +1,20 @@
+{
+    "basin_name": "Animas_River",
+    "config_name": "Animas_River",
+    "data_file": "Animas_River_data.csv",
+    "features": [
+        ["SNOTEL_PA_A_0", "SNOTEL_PA_A_2", "SNOTEL_PA_M_3", "TMP_mean", "WIND_mean", "SNOTEL_PA_M_5", "AMO", "SPFH_mean", "SNOTEL_PA_A_3", "SNOTEL_PA_A_1"],
+        ["SNOTEL_PA_A_0", "SNOTEL_PA_A_2", "SNOTEL_PA_M_3", "TMP_mean" , "SNOTEL_PA_M_0", "WIND_mean", "SNOTEL_PA_A_5", "SPFH_mean", "AMO", "SNOTEL_PA_M_4"],
+        ["SNOTEL_PA_A_0", "SNOTEL_PA_A_2", "SPFH_mean", "AMO", "NAO", "SNOTEL_PA_M_0", "SNOTEL_SWE_M_0", "SOI", "SNOTEL_SWE_A_0", "PDO"],
+        ["SNOTEL_PA_A_0", "SPFH_mean", "SNOTEL_SWE_A_0", "SNOTEL_PA_A_2", "NAO", "PDO", "AMO", "SNOTEL_SWE_M_5", "SNOTEL_PA_M_2", "WIND_mean"],
+        ["SNOTEL_PA_A_0", "SNOTEL_PA_A_2", "TMP_mean", "SNOTEL_PA_M_3", "SNOTEL_PA_A_5", "WIND_mean", "SNOTEL_PA_M_4", "SNOTEL_SWE_M_2", "SNOTEL_SWE_M_0", "SNOTEL_PA_M_1"]
+    ],
+    "regressors": [
+        "multiple_linear_regression",
+        "principal_component_regression",
+        "random_forest",
+        "extremely_randomized_trees",
+        "support_vector_regression"
+    ],
+
+}

@@ -1,0 +1,4 @@
+These config files allow you to choose which model types and accompanying features
+you want to perform an exhaustive search on. In each config file, there are 5
+model types and 5 accompanying feature lists. Each list was obtained from previously
+performed sequential forward feature selection.

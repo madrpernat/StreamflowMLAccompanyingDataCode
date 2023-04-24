@@ -78,7 +78,8 @@ def main():
 
                     grid = GridSearchCV(pipe, param_grid, scoring=nse_scorer, n_jobs=-1)  # inner CV for hp tuning
 
-                    # Using best hyperparameters, retrain model on full inner dataset
+                    # Fit the grid (i.e. identify optimal hyperparameters). Then using best hyperparameters, retrain 
+                    # model on full inner dataset and predict on the hold-out set.
                     grid.fit(inner_X_train, inner_y_train)
                     # and then use it to predict the testing set
                     y_preds = grid.predict(inner_X_test)
